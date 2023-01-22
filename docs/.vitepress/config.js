@@ -1,6 +1,9 @@
 import { defineConfig } from "vitepress"
 
 export default defineConfig({
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     lang: 'zh-CN',
     title: 'WdonSpace',
     description: 'Collection by a learning-driven developer.',
@@ -10,9 +13,9 @@ export default defineConfig({
         theme: 'material-palenight',
         lineNumbers: true
     },
-    titleTemplate: 'Site',
+    // titleTemplate: ' WdonSpace',
     themeConfig: {
-        // logo:'/',
+        // logo: '/favicon.ico',
         nav: [
             { text: "🔥 前端", link: "/frontend/" },
 

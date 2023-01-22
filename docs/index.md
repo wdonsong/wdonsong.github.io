@@ -35,5 +35,7 @@ features:
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, yellow);
+  --vp-button-brand-bg: rgba(184, 74, 226,0.8);
+  --vp-button-brand-border: rgb(184, 74, 226);
 }
 </style>
