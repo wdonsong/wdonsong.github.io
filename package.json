@@ -1,8 +1,10 @@
 {
   "name": "wdonspace",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "分享 Wdon 的见闻",
+  "private": true,
+  "author": "Wdon<https://github.com/wdonsong>",
+  "license": "MIT",
   "scripts": {
     "deploy": "bash deploy.sh",
     "docs:dev": "vitepress dev docs",
@@ -10,11 +12,25 @@
     "docs:preview": "vitepress preview docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdonsong/wdonsong.github.io"
+  },
+  "keywords": [
+    "vue",
+    "react",
+    "JavaScript",
+    "TypeScript",
+    "Python"
+  ],
+  "bugs": {
+    "url": "https://github.com/wdonsong/wdonsong.github.io/issues"
+  },
   "devDependencies": {
     "vitepress": "1.0.0-alpha.40",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "@antfu/ni": "^0.18.8",
+    "esno": "^0.16.3",
+    "vite": "^4.0.4"
   }
 }
